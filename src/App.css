@@ -1,25 +1,40 @@
 .app-container {
-  background: linear-gradient(150deg, #FFF 0%, #FFF4F4 84.51%);
+  background: linear-gradient(150deg, #FFF 0%, #FFF4F4 14.51%);
   width: 23.4375rem;
   height: 50rem;
   margin: 1em auto;
   padding: 1em;
   display: flex;
-  border: 2px solid blue;
+  flex-direction: column;
+  /* border: 2px solid blue; */
 }
 
 .nav {
-  /* align-items: center; */
-  /* display: flex; */
+  margin-top: .5em;
 }
 
 nav > img {
-
   align-self: center;
 }
 
 .nav > span {
   font-family: 'Karla', Arial, sans-serif;
-  margin-left: .5em;
-  font-size: 1.25rem;
+  margin-left: .25em;
+  font-size: 1.15rem;
+  background-color: #ADD8E6;
+  padding: 1px 8px;
+  border-radius: 25px;
+  color: #00008B;
+}
+
+.hero-img {
+  align-self: center;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  width: 23.2rem;
+  height: 35vh;
+  margin-left: -1em;
+  display: block;
+  overflow: hidden;
+  margin: 2em;
 }
