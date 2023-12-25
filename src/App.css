@@ -21,7 +21,7 @@ nav > img {
 .nav > span {
   font-family: 'Karla', Arial, sans-serif;
   margin-left: .25em;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   background-color: #ADD8E6;
   padding: 1px 8px;
   border-radius: 25px;
@@ -58,6 +58,7 @@ main > h1 {
 main h1 > span {
   color: #ff3232;
   text-decoration: underline;
+  text-decoration-thickness: 5px;
   margin: 1em;
   margin-right: 1.2em;
   letter-spacing: .4rem;
@@ -80,9 +81,14 @@ main > p {
 
 .two-span {
   background-color: rgba(253, 247, 115, 0.918);
-  padding: 2px 2px;
-  font-size: 1em;
+  padding: 5px 9px;
+  font-size: 1.25em;
   font-weight: 900;
+  margin-right: 1em;
+}
+
+.question-mark {
+  margin-left: -1em;
 }
 
 .span-height-adjuster {
@@ -94,14 +100,18 @@ main > p {
   text-align: center;
 }
 
+#form > label {
+  margin-right: 3px;
+}
+
 #form > input[type="email"] {
   width: 19.4375rem;
-height: 3rem;
-flex-shrink: 0;
-background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.05) 0%);
-border: solid 1px #423A3A;
-border-radius: 25px;
+  height: 3rem;
+  flex-shrink: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.05) 0%);
+  border: solid 1px #423A3A;
+  border-radius: 25px;
 }
 
 #form > input[type="email"]:focus {
@@ -113,4 +123,21 @@ border-radius: 25px;
   font-weight: 400;
   line-height: 1.75rem;
   padding: 1em;
+}
+
+.submit-btn {
+  border: none;
+  border-radius: 9999px;
+  font-size: 1.25em;
+  padding: 0.5em 1em;
+  transition: all .1s ease-out;
+  background-color: #b94be8ba;
+  position: relative;
+  bottom: .2em;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.2);
+    bottom: 3px !important;
 }

@@ -18,7 +18,7 @@ const Email = () => {
             <form id="form" onSubmit={handleSubmit}>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" /><br/><br/>
-                <button>Submit</button>
+                <button className="submit-btn">Submit</button>
             </form>
         </>
     )
