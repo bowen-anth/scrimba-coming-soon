@@ -7,7 +7,7 @@ const Image = () => {
             src="../public/peeps-social.svg" 
             alt="photo of happy cartoon people" 
             width="400px" 
-            height="auto" 
+            minHeight="600px" 
             />
         </>
     )
