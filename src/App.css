@@ -1,5 +1,5 @@
 .app-container {
-  background: linear-gradient(150deg, #FFF 0%, #FFF4F4 14.51%);
+  background: linear-gradient(150deg, #FFF 0%, #fbf4ff 14.51%);
   width: 23.4375rem;
   height: 50rem;
   margin: 1em auto;
@@ -32,9 +32,61 @@ nav > img {
   margin: 0 auto;
   /* border: 2px solid blue; */
   width: 23.2rem;
-  height: 35vh;
+  height: 40vh;
   margin-left: -1em;
   display: block;
   overflow: hidden;
   margin: 2em;
+}
+
+main > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-align: center;
+  /* font-family: Josefin Sans; */
+  font-family: 'Times New Roman', 'Karla', Arial, sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.625rem; /* 105% */
+  letter-spacing: 0.67656rem;
+  color: #212329;
+  margin-left: .3em;
+}
+
+main h1 > span {
+  color: #ff3232;
+  text-decoration: underline;
+  margin: 1em;
+  margin-right: 1.2em;
+  letter-spacing: .4rem;
+}
+
+.remove-spacing {
+  letter-spacing: normal;
+}
+
+main > p {
+  margin: 2em auto;
+  color: #000000;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; /* 157.143% */
+}
+
+#form {
+  text-align: center;
+}
+
+#form > input[type="email"] {
+  width: 19.4375rem;
+height: 3rem;
+flex-shrink: 0;
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.1) 0%);
+border: solid 1px #423A3A;
+border-radius: 25px;
 }

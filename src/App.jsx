@@ -12,6 +12,8 @@ function App() {
       <div className="app-container">
         <Nav />
         <Image />
+        <Content />
+        <Email />
       </div>
     </>
   )
