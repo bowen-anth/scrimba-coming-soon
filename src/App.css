@@ -2,11 +2,12 @@
   background: linear-gradient(150deg, #FFF 0%, #fbf4ff 14.51%);
   width: 23.4375rem;
   height: 50rem;
-  margin: 1em auto;
+  margin: 10vh auto;
   padding: 1em;
   display: flex;
   flex-direction: column;
-  /* border: 2px solid blue; */
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
 .nav {
@@ -77,6 +78,18 @@ main > p {
   line-height: 1.375rem; /* 157.143% */
 }
 
+.two-span {
+  background-color: rgba(253, 247, 115, 0.918);
+  padding: 2px 2px;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.span-height-adjuster {
+  position: relative;
+  bottom: .04em;
+}
+
 #form {
   text-align: center;
 }
@@ -86,7 +99,18 @@ main > p {
 height: 3rem;
 flex-shrink: 0;
 background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.1) 0%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.05) 0%);
 border: solid 1px #423A3A;
 border-radius: 25px;
+}
+
+#form > input[type="email"]:focus {
+  background-color: rgba(253, 247, 115, 0.1);
+  color: #423A3A;
+  font-family: Josefin Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  padding: 1em;
 }
