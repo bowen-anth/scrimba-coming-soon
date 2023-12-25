@@ -114,7 +114,7 @@ main > p {
   border-radius: 25px;
 }
 
-#form > input[type="email"]:focus {
+#form > input[type="email"]:focus-visible {
   background-color: rgba(253, 247, 115, 0.1);
   color: #423A3A;
   font-family: Josefin Sans;
