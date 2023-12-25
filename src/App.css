@@ -106,13 +106,13 @@ main > p {
 
 #form > input[type="email"] {
   width: 19.4375rem;
-  height: 3rem;
+  height: 2rem;
   flex-shrink: 0;
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,198,198,0.05) 0%);
   border: solid 1px #423A3A;
   border-radius: 25px;
-  padding: 2em 1em;
+  padding: 1.5em 1em;
   font-family: Josefin Sans;
   font-size: 1em;
 }
